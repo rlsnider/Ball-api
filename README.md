@@ -23,7 +23,7 @@
     a.) create a file named models.py in the ballpy folder.
     b.) import Sqlalchemy
     c.) in __init__.py  import models
-    d.) in models.py create you model
+    d.) in models.py create your model
     e.) install Flask-Migrate and psycopg2-binary
     f.) import the migrate class from the package in __init__.py
     g.)initialize migrations folder by funning flask db migrate
@@ -32,4 +32,5 @@
     b.) import Blueprint from flask, define bp info
     c.) go back to the factory(__init__.py) and import reptile and register blueprint
     d.) test and commit
+9. Return the json,
 
