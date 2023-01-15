@@ -1,6 +1,2 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return "Hello from Ball.py"
+from ball import create_app
+app = create_app()
