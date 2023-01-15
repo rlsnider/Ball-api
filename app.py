@@ -1,2 +1,2 @@
-from ball import create_app
+from ballpy import create_app
 app = create_app()
