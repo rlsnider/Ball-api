@@ -9,7 +9,7 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     
     @app.route('/')
-    def hello():
+    def index():
         return "Hello ball"
     from . import models
     models.db.init_app(app)

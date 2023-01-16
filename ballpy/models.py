@@ -10,3 +10,4 @@ class Reptile(db.Model):
     scientific_name = db.Column(db.String(250))
     native_habitat = db.Column(db.Text())
     fun_fact = db.Column(db.Text())
+
